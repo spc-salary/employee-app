@@ -2,7 +2,8 @@ name: Build Android APK with Buildozer
 
 on:
   push:
-    branches: [ master ] # أو main حسب اسم الفرع الرئيسي لديك
+    branches: [ main, master ]
+  workflow_dispatch:
 
 jobs:
   build:
