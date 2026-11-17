@@ -12,8 +12,11 @@ package.domain = org.spcsalary
 # (str) Source files where the app lives (relative to .spec)
 source.dir = .
 
-# (list) Source files to include (let it empty to include all the files)
+# (list) Source files to include
 source.include_exts = py,png,jpg,kv,atlas
+
+# (str) Application versioning
+version = 0.1
 
 # (list) Application requirements
 requirements = python3,kivy
