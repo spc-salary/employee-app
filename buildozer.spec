@@ -27,5 +27,11 @@ orientation = portrait
 # (int) Indicate if the application should be fullscreen or not
 fullscreen = 0
 
+# (str) Supported Android API
+android.api = 33
+
+# (str) Minimum API your APK will support
+android.min_api = 21
+
 # (int) Automatically accept Android SDK licenses
 android.accept_sdk_license = True
