@@ -26,3 +26,6 @@ orientation = portrait
 
 # (int) Indicate if the application should be fullscreen or not
 fullscreen = 0
+
+# (int) Automatically accept Android SDK licenses
+android.accept_sdk_license = True
