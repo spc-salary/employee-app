@@ -35,7 +35,9 @@ jobs:
           libswscale-dev \
           libavformat-dev \
           libavcodec-dev \
-          zlib1g-dev
+          zlib1g-dev \
+          unzip \
+          zip
 
     - name: Install Buildozer and Cython
       run: |
@@ -44,6 +46,8 @@ jobs:
         pip install --user buildozer
 
     - name: Build with Buildozer
+      env:
+        ANDROID_NDK_HOME: /home/runner/.buildozer/android/platform/android-ndk-r25b
       run: |
         export PATH=$PATH:~/.local/bin
         buildozer -v android debug
