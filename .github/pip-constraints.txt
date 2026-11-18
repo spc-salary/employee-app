@@ -1,0 +1,2 @@
+# Keep python-for-android's internal virtualenv on the pip API it expects.
+pip==26.3
